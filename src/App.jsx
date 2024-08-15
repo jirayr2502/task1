@@ -36,7 +36,7 @@ export default function App() {
   };
 
   const handleDecrease = () => {
-    let temp = [...people];
+    let temp = [...people]; // comment
     temp = temp.sort((a, b) => b.salary - a.salary);
     setPeople(temp);
   };
